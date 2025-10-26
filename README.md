@@ -14,6 +14,13 @@ This repository implements both a **supervised learning model** and an **offline
 | `processed/` | Generated preprocessing artifacts + splits |
 | `results/` | Saved models + metrics |
 
+## Dataset
+
+Download `accepted_2007_to_2018Q3.csv.gz` from Kaggle (LendingClub Loan Data)  
+and place it in the **project root** (same folder as preprocess.py).
+
+Do NOT unzip — the script handles `.csv.gz` directly.
+
 ## Running
 
 1. Put `accepted_2007_to_2018Q3.csv.gz` in repo root  
